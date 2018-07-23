@@ -42,7 +42,7 @@ The following two packages are necessary to run the script:
 >    library(magrittr)
 >    library(dplyr)
 
-Codebook can be found in the same directory as this file, with the filename "codebook.txt"
+Codebook can be found in the same directory as this file, with the filename "codebook.md"
 
 ## Output
 
