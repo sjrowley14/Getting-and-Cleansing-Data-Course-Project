@@ -63,7 +63,7 @@
     
     #activity labels
     activities <- read.table(file.path(dataPath, "activity_labels.txt"))
-    colnames(activities) <- c("activityId", "activityLabel")
+    colnames(activities) <- c("activity_number", "activity_Label")
     
     #features
     features <- read.table(file.path(dataPath, "features.txt"), as.is = TRUE)
@@ -130,8 +130,24 @@
       group_by(subject, activity) %>%
       summarise_each(funs(mean))
     
+    str(humanActivityMeans)
+    
     # output to file "tidy_data.txt"
     write.table(humanActivityMeans, "tidy_data.txt", row.names = FALSE, 
                 quote = FALSE)
     
+    str(humanActivityMeans)
+    
+    
+## Create the codebook
+    
+    install.packages('dataMaid')
+    library(dataMaid)
+     
+    install.packages('rmarkdown')
+    library(rmarkdown)    
+    
+    help(makeCodebook)
+    
+    makeCodebook(humanActivityMeans, vol = "1")   
     
