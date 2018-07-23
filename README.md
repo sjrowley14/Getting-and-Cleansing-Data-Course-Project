@@ -42,6 +42,8 @@ The following two packages are necessary to run the script:
 >    library(magrittr)
 >    library(dplyr)
 
+Codebook can be found in the same directory as this file, with the filename "codebook.md"
+
 ## Output
 
 The output file produced by the script is called "tidy_data.txt" and can be found in the same repository as this file.
@@ -132,5 +134,5 @@ Summary of the file is below
  $ frequencyDomainBodyGyroscopeJerkMagnitudeMean                 : num  -0.319 -0.635 -0.282 -0.99 -0.995 ...
  $ frequencyDomainBodyGyroscopeJerkMagnitudeStandardDeviation    : num  -0.382 -0.694 -0.392 -0.987 -0.995 ...
  $ frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency        : num  0.191 0.114 0.19 0.185 0.334 ...
- - attr(*, "vars")= chr "subject"
- - attr(*, "drop")= logi TRUE
+ > attr(*, "vars")= chr "subject"
+ > attr(*, "drop")= logi TRUE
