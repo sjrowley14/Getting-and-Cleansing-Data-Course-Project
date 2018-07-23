@@ -24,7 +24,7 @@ Number of variables            81
 
 
 # Codebook summary table
-
+```
 ---------------------------------------------------------------------------------------------------------------------------
 Label   Variable                                                               Class       # unique  Missing  Description  
                                                                                              values                        
@@ -191,10 +191,10 @@ Label   Variable                                                               C
 
         **[frequencyDomainBodyGyroscopeJerkMagnitudeMeanFrequency]**           numeric          180  0.00 %                
 ---------------------------------------------------------------------------------------------------------------------------
+```
 
 
-
-
+```
 # Variable list
 ## subject
 
@@ -2130,7 +2130,7 @@ Median                             0.11
 
 Min. and max.               -0.18; 0.43
 ---------------------------------------
-
+```
 
 
 
