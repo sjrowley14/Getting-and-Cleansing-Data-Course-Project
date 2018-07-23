@@ -12,15 +12,15 @@ library(pander)
 # Data report overview
 The dataset examined has the following dimensions:
 
+```
+---------------------------------
+Feature                    Result
+------------------------ --------
+Number of observations        180
 
->---------------------------------
->Feature                    Result
->------------------------ --------
->Number of observations        180
->
->Number of variables            81
->---------------------------------
-
+Number of variables            81
+---------------------------------
+```
 
 
 # Codebook summary table
